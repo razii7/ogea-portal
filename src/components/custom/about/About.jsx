@@ -51,7 +51,7 @@ const About = memo(() => {
                 <div className="flex justify-center lg:justify-end">
                     <div className="relative w-full max-w-md">
                         <div className='rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-400'>
-                            <img src={logoImg} alt="OGEA Banner" className="w-full h-full object-cover" />
+                            {/* <img src={logoImg} alt="OGEA Banner" className="w-full h-full object-cover" /> */}
                         </div>
                         {/* Decorative accent */}
                         <div className="absolute -bottom-3 -right-3 w-24 h-24 bg-gradient-to-br from-[#c99a3c]/20 to-[#0f2545]/10 rounded-2xl -z-10" />
